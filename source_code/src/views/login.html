@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Electron App</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="login.css">
+    <script src="../login.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300&display=swap" rel="stylesheet">
+</head>
+
+<body class="programa_body">
+    <header class="site-header">
+        <div class="contenedor">
+            <div class="logotipo_app">
+                <center>
+
+                </center>
+            </div>
+            <div class="nombre_letras">
+                <center>
+                    <img src="../../docs/letras.png" alt="">
+                </center>
+            </div>
+
+        </div>
+        <!--contenedor-->
+    </header>
+    <div class="cuerpo">
+        <div class="letras_bienvenida">
+            <p class="bienvenida">Bienvenido a ByteMana</h1>
+                <p>Inicia Sesion Para Entrar Al Programa</p>
+        </div>
+        <center>
+            <div class="login_form">
+                <div class="cuadrado">
+                    <center>
+                        <img src="../../docs/icon_app.png" alt="">
+                    </center>
+                    <p class="titulo_del_login">Iniciar Sesion</p>
+                    <form id="login-form">
+                        <input id="contact_form_correo" type="email" placeholder="Correo Electronico" required="required" data-error="Valid email is required.">
+                        <input id="contact_form_pass" type="email" placeholder="Contraseña" required="required" data-error="Valid email is required.">
+                        <button onclick="validar()" id="contact_send_btn" type="button" value="Submit">INICIAR SESION</button>
+                        <a href="http://localhost/Puntoventa/punto_venta.php">
+                            <button id="contact_register_btn" type="button" value="register">ERES NUEVO ?</button>
+                        </a>
+                        <a href="../views/olvidaste.html">
+                            <p class="olvidaste_text">Olvidaste Tu Contraseña?</p>
+                        </a>
+                    </form>
+                </div>
+            </div>
+        </center>
+    </div>
+    <footer>
+        <center>
+            <div>
+                <p class="developed_with">Software Desarrollado Por Adarit</p>
+                <img src="../../docs/redes.png" alt="" class="redes_images">
+            </div>
+        </center>
+    </footer>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-analytics.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+            apiKey: "AIzaSyCy2UIepPkeBQV2uIAwhTGAO-ZItOfmrRM",
+            authDomain: "bytemana-4f6a3.firebaseapp.com",
+            projectId: "bytemana-4f6a3",
+            storageBucket: "bytemana-4f6a3.appspot.com",
+            messagingSenderId: "852585474685",
+            appId: "1:852585474685:web:dc20bd6b2f4d99abfe9f14",
+            measurementId: "G-7HEKEW8RST"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+</body>
+
+</html>

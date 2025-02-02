@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+.caja-de-contenido-back-inventarios {
+    border-radius: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.disminuir-largo {
+    width: 200px;
+}
+
+.mover-izquierda {
+    margin-left: 30px;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+img {
+    pointer-events: none;
+}

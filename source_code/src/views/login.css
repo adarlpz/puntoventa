@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300&display=swap');
+
+
+
+.programa_body {
+    background-image: url(../../docs/back_olvidaste.jpg);
+    height: 680px;
+}
+.title_app {
+    text-align: center;
+    color: #ffffff;
+    padding-top: 30px;
+}
+.letras_bienvenida {
+    text-align: center;
+    color: #ffffff;
+    font-size: 15px;
+}
+.bienvenida {
+    font-size: 40px;
+}
+.cuadrado {
+    text-align: center;
+    width: 350px;
+    height: 500px;
+    background-color: #ffffff;
+    border-radius: 30px;
+}
+.cuadrado p {
+    color: #000000;
+    font-size: 20px;
+    padding-top: 10px;
+}
+#contact_form_correo {
+    width: 300px;
+    border-width: 1.5px;
+    border-color: black;
+    border-radius: 30px;
+    padding: 5px;
+    margin-bottom: 15px;
+    color: black;
+    padding-left: 10px;
+}
+#contact_form_pass {
+    width: 300px;
+    border-width: 1.5px;
+    border-color: black;
+    border-radius: 30px;
+    padding: 5px;
+    margin-bottom: 50px;
+    color: black;
+    padding-left: 10px;
+}
+#input-field {
+    border-radius: 30px;
+}
+#contact_send_btn {
+    width: 230px;
+    height: 35px;
+    margin-top: 60px;
+    border-radius: 40px;
+    background-color: #0097FF;
+    border: 0;
+    font-weight: 700;
+    color:  #ffffff;
+    padding-top: 6.5px;
+    padding-bottom: 6.5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+}
+#contact_register_btn {
+    width: 150px;
+    height: 30px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    border-radius: 40px;
+    border-color: #0097FF;
+    background-color: #ffffff;
+    border-width: 2px;
+    color:  #0097FF;
+}
+.olvidaste_text {
+    font-size: 14px !important;
+    text-decoration: none;
+}
+#form {
+    width: 1000px;
+    position: absolute;
+}
+.cuadrado img {
+    margin-top: 5px;
+}
+.titulo_del_login {
+    margin-top: 1px;
+    margin-bottom: 25px;
+}
+.developed_with {
+    margin-top: 50px;
+}
+.redes_images {
+    padding-bottom: 10px;
+}

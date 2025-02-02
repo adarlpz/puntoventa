@@ -1,0 +1,111 @@
+/* Bootstrap 3.3.7 */
+
+@import url('bootstrap.min.css');
+
+/* SweetAlert2 */
+
+@import url('sweetalert2.css');
+
+/* Font Awesome 4.7.0 */
+
+@import url('font-awesome.min.css');
+
+/* AdminLTE */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+@import url('AdminLTE.css');
+html,
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    position: relative;
+    font-family: 'Lato', sans-serif;
+}
+
+.MsjAjaxForm {
+    display: none;
+}
+
+
+/*=== Login ===*/
+
+.MainLogin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    max-width: 300px;
+    padding: 15px;
+    box-sizing: border-box;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .4);
+    background-color: #fff;
+    color: #777777;
+    border-radius: 15px;
+    height: 500px;
+}
+
+.MainLogin button {
+    background-color: hsl(206, 100%, 57%);
+}
+
+.MainLogin button:hover {
+    border: 0px;
+}
+
+
+/*=== Barra navegacion ===*/
+
+.navbar {
+    background-color: #1B1B1B;
+    height: 52px;
+}
+
+.btn-login {
+    margin-top: 50px;
+}
+
+.image-login {
+    margin-bottom: 7px;
+}
+
+.olvidaste_text {
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.inicio-title {
+    color: black;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.label-login {
+    color: #2F2F2F;
+    font-weight: 500;
+}
+
+#contact_register_btn {
+    margin-top: 50px;
+    border: none;
+    background-color: #0AADFE;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 14px;
+    border-radius: 12px;
+}
+
+#contact_register_btn:hover {
+    background-color: #007AB7;
+}
+
+.olvidaste_text {
+    margin-top: 15px;
+}

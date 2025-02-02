@@ -1,0 +1,50 @@
+<svg xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="141.83dp"
+    android:height="212.01dp"
+    android:viewportWidth="141.83"
+    android:viewportHeight="212.01">
+  <path
+      d="M133.77,94.74h-22L111.77,67.15c0,-24.31 -18.88,-44.09 -42.09,-44.09s-42.08,19.78 -42.08,44.09v27.59h-22L5.6,67.15c0,-37 28.75,-67.15 64.08,-67.15s64.09,30.13 64.09,67.15Z">
+    <aapt:attr name="android:fillColor">
+      <gradient 
+          android:startY="47.370007"
+          android:startX="5.5999985"
+          android:endY="47.370007"
+          android:endX="133.77"
+          android:type="linear">
+        <item android:offset="0" android:color="#FFFFFFFF"/>
+        <item android:offset="0.03" android:color="#FFE6E7E8"/>
+        <item android:offset="1" android:color="#FFA6A8AB"/>
+      </gradient>
+    </aapt:attr>
+  </path>
+  <path
+      d="M24.24,89.36L117.59,89.36A24.24,24.24 0,0 1,141.83 113.6L141.83,187.77A24.24,24.24 0,0 1,117.59 212.01L24.24,212.01A24.24,24.24 0,0 1,0 187.77L0,113.6A24.24,24.24 0,0 1,24.24 89.36z">
+    <aapt:attr name="android:fillColor">
+      <gradient 
+          android:startY="150.68"
+          android:endY="150.68"
+          android:startX="0"
+          android:endX="141.83"
+          android:type="linear">
+        <item android:offset="0" android:color="#FFF05A28"/>
+        <item android:offset="1" android:color="#FFF6921E"/>
+      </gradient>
+    </aapt:attr>
+  </path>
+  <group>
+    <clip-path
+        d="M80.48,138.78a15.64,15.64 0,1 0,-23.16 13.62v18.3a7.53,7.53 0,0 0,15.06 0L72.38,152.4A15.55,15.55 0,0 0,80.48 138.78Z"/>
+    <path
+        d="M87.48,138.78a15.64,15.64 0,1 0,-23.16 13.62v18.3a7.53,7.53 0,0 0,15.06 0L79.38,152.4A15.55,15.55 0,0 0,87.48 138.78Z"
+        android:strokeAlpha="0.85"
+        fill="#301300"
+        android:fillAlpha="0.85"/>
+  </group>
+  <path
+      d="M84.12,138.78a15.64,15.64 0,1 0,-23.16 13.62v18.3a7.53,7.53 0,1 0,15 0L75.96,152.4A15.56,15.56 0,0 0,84.12 138.78Z"
+      android:strokeAlpha="0.85"
+      fill="#572200"
+      android:fillAlpha="0.85"/>
+</svg>

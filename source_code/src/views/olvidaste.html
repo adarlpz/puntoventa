@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Electron App</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="olvidaste.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="../olvidaste.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300&display=swap" rel="stylesheet">
+  </head>
+  <body class="programa_body">
+    <header class="site-header">
+        <div class="contenedor">
+          <div class="logotipo_app">
+            <center>
+              
+            </center>
+          </div>
+            <div class="nombre_letras">
+              <center>
+                <img src="../../docs/letras.png" alt="">
+              </center>
+            </div>
+
+        </div>
+        <!--contenedor-->
+    </header>
+    <div class="cuerpo">
+      <div class="letras_bienvenida">
+        <p class="bienvenida">Bienvenido a ByteMana</h1>
+        <p>Registrate Para Empezar A Usar ByteMana</p>
+      </div>
+      <center>
+      <div class="login_form">
+        <div class="cuadrado">
+          <center>
+            <img src="../../docs/icon_app.png" alt="">
+          </center>
+          <p class="titulo_del_login">Registro</p>
+          <form action="post" class="form">
+            <input id="contact_form_correo" type="email" placeholder="Correo Electronico" required="required" data-error="Valid email is required.">
+            <form action="../views/login.html">
+            <button onclick="validar()" id="contact_send_btn" type="button" value="Submit">REGISTRATE !</button>
+          </form>
+        </form>
+        <p class="rest-pass">Se Enviara Un Correo Electronico Para Restablecer Tu Contraseña</p>
+        </div>
+      </div>
+    </center>
+    </div>
+    <footer>
+      <center>
+      <div>
+        <p class="titulo_del_login">Software Desarrollado Por Adarit</p>
+        <img src="../../docs/redes.png" alt="" class="redes_images">
+      </div>
+    </center>
+    </footer>
+  </body>
+</html>
